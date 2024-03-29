@@ -19,5 +19,8 @@ To compile and watch the Tailwind CSS changes, navigate to the `cloudaitech` dir
 This command will monitor the input.css file for changes and automatically compile the Tailwind CSS to output.css.
 
 ```bash
+npm install
+
+```bash
 npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch
 
