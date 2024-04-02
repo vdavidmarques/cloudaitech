@@ -718,10 +718,25 @@ video {
   }
 }
 
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+
 @media (min-width: 1536px) {
   .container {
     max-width: 1536px;
   }
+}
+
+.z-30 {
+  z-index: 30;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .flex {
@@ -814,6 +829,11 @@ video {
      object-fit: contain;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -848,6 +868,10 @@ video {
 
 .font-neuro {
   font-family: Neuro, sans-serif;
+}
+
+.font-resamitz {
+  font-family: Resamitz, sans-serif;
 }
 
 .text-2xl {
@@ -890,6 +914,14 @@ video {
   line-height: 1;
 }
 
+.text-\[0\.875rem\] {
+  font-size: 0.875rem;
+}
+
+.text-\[1\.625rem\] {
+  font-size: 1.625rem;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -913,6 +945,18 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.leading-6 {
+  line-height: 1.5rem;
+}
+
+.leading-\[1\.875rem\] {
+  line-height: 1.875rem;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
 }
 
 .text-black {
@@ -1798,4 +1842,71 @@ video {
 
 .text-opacity-95 {
   --tw-text-opacity: 0.95;
+}
+
+@media (min-width: 1024px) {
+  .lg\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .lg\:text-\[1\.25rem\] {
+    font-size: 1.25rem;
+  }
+
+  .lg\:text-\[1\.875rem\] {
+    font-size: 1.875rem;
+  }
+
+  .lg\:text-\[1rem\] {
+    font-size: 1rem;
+  }
+
+  .lg\:text-\[2\.875rem\] {
+    font-size: 2.875rem;
+  }
+
+  .lg\:text-\[2rem\] {
+    font-size: 2rem;
+  }
+
+  .lg\:text-\[3\.125rem\] {
+    font-size: 3.125rem;
+  }
+
+  .lg\:text-\[3\.75rem\] {
+    font-size: 3.75rem;
+  }
+
+  .lg\:text-\[4\.0625rem\] {
+    font-size: 4.0625rem;
+  }
+
+  .lg\:\!leading-9 {
+    line-height: 2.25rem !important;
+  }
+
+  .lg\:leading-8 {
+    line-height: 2rem;
+  }
+
+  .lg\:leading-9 {
+    line-height: 2.25rem;
+  }
+
+  .lg\:leading-\[1\.75rem\] {
+    line-height: 1.75rem;
+  }
+
+  .lg\:leading-\[3\.125rem\] {
+    line-height: 3.125rem;
+  }
+
+  .lg\:leading-\[3\.75rem\] {
+    line-height: 3.75rem;
+  }
+
+  .lg\:leading-\[5\.4375rem\] {
+    line-height: 5.4375rem;
+  }
 }

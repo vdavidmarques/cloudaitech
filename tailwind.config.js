@@ -1,6 +1,9 @@
  /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.{html,php}"],
+  content: [
+    './*.{html,php,js}',
+    './components/**/*.{js,php}'
+  ],
   theme: {
     colors: {
       white: '#fff',
@@ -15,6 +18,14 @@ module.exports = {
       'image-effect': '#860706', 
       'image-effect-darker': '#2D0302', 
 
+    },
+    screens: {
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      '1.5xl': '1440px',
+      '2xl': '1536px',
     },
     extend: {
 

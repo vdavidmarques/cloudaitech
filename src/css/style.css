@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Neuro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/neuropolitcalrg.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: 'Resamitz';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/resamitz.woff2") format('woff2');
+}
+
+header nav ul{
+    display: none;
+}
+
+header nav.active ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    z-index: 10;
+    padding-top: 9.375rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+header .close.navbar{
+    display: none;
+}
+
+header .close.navbar.active{
+    display: block;
+    z-index: 20;
+}
+
