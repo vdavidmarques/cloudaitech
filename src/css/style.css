@@ -43,3 +43,16 @@ header .close.navbar.active{
     z-index: 20;
 }
 
+.text-image img{
+    clip-path: polygon(100% 0%, 100% 100%, 59% 100%, 1% 0%);
+}
+
+@media (min-width: 1024px){
+    .image-text img{
+        clip-path: polygon(0% 1%, 70% 0%, 43% 100%, 0% 100%);
+    }
+}
+
+.image-text img{
+    clip-path: polygon(0% 1%, 100% 0%, 43% 100%, 0% 100%);
+}

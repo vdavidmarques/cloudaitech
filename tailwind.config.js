@@ -8,7 +8,10 @@ module.exports = {
     colors: {
       white: '#fff',
       black: '#000',
-      'gray-dark': "#131313",
+      gray: {
+        DEFAULT: "#D9D9D9",
+        dark: "#131313",
+      },
       red: {
         DEFAULT: '#DF1C1A',
         light: '#F99594',
@@ -28,7 +31,9 @@ module.exports = {
       '2xl': '1536px',
     },
     extend: {
-
+      backgroundImage: {
+        'swiper-button-navigation': 'url("/src/icon/arrow-right-circle.svg")',
+      }
     },
     fontFamily: {
       'neuro': ['Neuro', "sans-serif"],
@@ -46,7 +51,11 @@ module.exports = {
     'heading-xl',
     'heading-2xl',
     'font-neuro',
-    {pattern: /text-./},
+    {
+      pattern:
+        /(bg|text|border)-(gray|red)-(light|dark|ultradark)/,
+      variants: ['before', 'after', 'hover', 'focus', 'lg:hover'],
+    },
   ],
   plugins: [
   ],
