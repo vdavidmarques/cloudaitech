@@ -1,5 +1,5 @@
 <section class="container py-20 lg:py-[17.25rem]">
-    <h2 class="uppercase heading-title-md mb-20 text-center lg:mb-44">Depoimentos</h2>
+    <h2 class="uppercase heading-title-md mb-20 text-center lg:mb-44">DEpositions</h2>
     <div class="swiper depositions">
         <div class="swiper-wrapper">
             <div class="swiper-slide flex rounded-[1.875rem] pt-12 pb-10 px-12 relative overflow-hidden ">
@@ -8,7 +8,7 @@
                     <h4 class="uppercase mb-2 heading-title-xs">Jane cooper</h4>
                     <p class="heading-text-xl">Lorem Ipsum sub tex Lorem Ipsum sub tex. Lorem Ipsum sub tex Lorem Ipsum sub tex</p>
                 </div>
-                <div class="bg-red-dark w-full h-full absolute top-0 left-0 opacity-90 mix-blend-hard-light z-10">&nbsp;</div>
+                <div class="bg-red-hard-light">&nbsp;</div>
                 <img src="./src/images/depoimentos-1.jpg" alt="Jane cooper" class="absolute top-0 left-0 w-full h-full object-cover">
             </div>
 
