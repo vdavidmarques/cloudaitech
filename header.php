@@ -93,8 +93,11 @@
                 @apply hover:text-red-ultradark
             }
 
-            .bg-swiper-button-navigation{
-                @apply bg-[url('./src/icon/arrow-right-circle.svg')] after:bg-no-repeat bg-cover
+            .bg-swiper-button-navigation-icon {
+                @apply bg-[url('./src/icon/arrow-right-circle.svg')] 
+            }
+            .swiper-button-navigation{
+                @apply after:bg-no-repeat bg-cover
             }
 
             .bg-red-hard-light{
@@ -118,16 +121,16 @@
         <nav class="navbar font-neuro text-base tracking-wide">
             <ul class="gap-x-16 lg:flex">
                 <li>
-                    <a href="/about-us.php">About Us</a>
+                    <a href="<?php echo $root  ?>/about-us">About Us</a>
                 </li>
                 <li>
-                    <a href="/services.php" class="cursor-not-allowed">Services</a>
+                    <a href="<?php echo $root  ?>/services" class="cursor-not-allowed">Services</a>
                 </li>
                 <li>
-                    <a href="/contact.php">Contact</a>
+                    <a href="<?php echo $root  ?>/contact">Contact</a>
                 </li>
                 <li>
-                    <a href="/portfolio.php">Portfolio</a>
+                    <a href="<?php echo $root  ?>/portfolio">Portfolio</a>
                 </li>
             </ul>
         </nav>
