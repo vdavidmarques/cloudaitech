@@ -21,3 +21,14 @@ const swiper = new Swiper('.swiper.depositions', {
         },
     },
 });
+
+const swiperTeam = new Swiper('.team .swiper', {
+  modules: [ Navigation ],
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  loop: true,
+  spaceBetween: 20,
+  slidesPerView: 1,
+});
