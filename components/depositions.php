@@ -32,7 +32,7 @@
                 <img src="./src/images/depoimentos-1.jpg" alt="Jane cooper" class="absolute top-0 left-0 w-full h-full object-cover">
             </div>
         </div>
-        <div class="swiper-button-prev w-11 h-11 after:!content-[''] after:bg-swiper-button-navigation absolute after:w-full after:h-full after:rotate-180 xl:hidden"></div>
-        <div class="swiper-button-next w-11 h-11 after:!content-[''] after:bg-swiper-button-navigation absolute after:w-full after:h-full xl:hidden"></div>
+        <div class="swiper-button-prev w-11 h-11 after:!content-[''] after:swiper-button-navigation after:bg-swiper-button-navigation-icon  absolute after:w-full after:h-full after:rotate-180 xl:hidden"></div>
+        <div class="swiper-button-next w-11 h-11 after:!content-[''] after:swiper-button-navigation after:bg-swiper-button-navigation-icon  absolute after:w-full after:h-full xl:hidden"></div>
     </div>
 </section> 
