@@ -57,7 +57,7 @@
             
             /* 60px */
             .heading-title-xl{
-                @apply font-neuro lg:text-[3.75rem] lg:leading-[3.125rem] tracking-wide
+                @apply font-neuro text-5xl lg:text-[3.75rem] lg:leading-[3.125rem] tracking-wide
             }
             
             /* 65px */

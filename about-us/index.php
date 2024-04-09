@@ -20,4 +20,5 @@
 <?php include '../components/our-history.php' ?>
 <?php include '../components/team.php' ?>
 <?php include '../components/highlightable-facts.php' ?>
+<?php include '../components/social-responsability.php' ?>
 <?php include '../footer.php' ?>
