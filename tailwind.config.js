@@ -51,6 +51,7 @@ module.exports = {
     'heading-xl',
     'heading-2xl',
     'font-neuro',
+    'group-houver:opacity-0',
     {
       pattern:
         /(bg|text|border)-(gray|red)-(light|dark|ultradark)/,

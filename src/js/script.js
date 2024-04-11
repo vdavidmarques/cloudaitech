@@ -11,3 +11,15 @@ function closeMenu(){
         item.classList.remove("active");
     });
 }
+
+var trigger = document.querySelector('.cases .swiper .swiper-slide')
+var closeModal = document.querySelector('.modal .close')
+var el = document.querySelector('.modal')
+
+trigger.addEventListener('click', function () {
+  el.classList.add("!block");
+})
+
+closeModal.addEventListener('click', function(){
+    el.classList.remove("!block");
+})

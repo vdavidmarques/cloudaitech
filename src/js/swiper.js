@@ -32,3 +32,28 @@ const swiperTeam = new Swiper('.team .swiper', {
   spaceBetween: 20,
   slidesPerView: 1,
 });
+
+const swiperCases = new Swiper('.cases .swiper', {
+  modules: [ Navigation ],
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  loop: false,
+  spaceBetween: 0,
+   breakpoints: {
+        360: {
+          slidesPerView: 1,
+          loopFillGroupWithBlank: true,
+          centeredSlides: true,
+        },
+        768: {
+          slidesPerView: 2,
+          centeredSlides: false,
+          loopFillGroupWithBlank: false,
+        },
+        1024: {
+          slidesPerView: 3,
+        },
+    },
+});

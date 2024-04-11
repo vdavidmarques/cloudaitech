@@ -74,11 +74,15 @@
             }
 
             .button{
-                @apply w-fit h-9 rounded-[0.625rem] uppercase px-5 py-3 flex items-center justify-center heading-title-xxs
+                @apply w-fit h-9 rounded-[0.625rem] uppercase px-5 py-3 flex items-center justify-center heading-title-xxs transition-colors
             }
 
             .button-first{
                 @apply bg-red-dark text-white border border-white hover:bg-red-ultradark
+            }
+
+            .button-second{
+                @apply bg-white text-red-dark border border-red-dark hover:bg-red-ultradark hover:text-white hover:border-red-ultradark
             }
 
             .navbar ul li a, .button-first{
@@ -110,7 +114,7 @@
     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
 </head>
-<body class="bg-black text-white font-resamitz text-lg">
+<body class="bg-black text-white font-resamitz text-lg relative">
    
     <header class="text-white container flex justify-between items-center h-[6.5625rem]">
         <a href="<?php echo $root ?>">

@@ -56,3 +56,38 @@ header .close.navbar.active{
 .image-text img{
     clip-path: polygon(0% 1%, 100% 0%, 43% 100%, 0% 100%);
 }
+
+.cases .wrapper{
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(min-width: 768px){
+    .cases .wrapper{
+        max-width: 1700px
+    }
+}
+
+.cases .item{
+    clip-path: polygon(32% 0%, 79% 0%, 57% 100%, 12% 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.cases .item.second{
+    transform: translateX(300px);
+}
+
+.cases .item.third{
+    transform: translateX(600px);
+}
+
+.cases .item.fourth{
+    transform: translateX(900px);
+}
+
+.cases .item.fifth{
+    transform: translateX(1200px);
+}
